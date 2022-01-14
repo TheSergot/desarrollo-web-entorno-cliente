@@ -1,0 +1,304 @@
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+body{
+        line-height:1;
+        font-family: arial;
+}
+
+h1  {
+        font-size: 46px;
+        letter-spacing: 0.05em;
+        font-family: Century Gothic;
+        margin-bottom: 10px;
+}
+
+h2  {
+        font-size: 21px;
+}
+
+h3  {
+        font-size: 18px;
+}
+
+h4{
+        font-size: 16px;
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{
+    display:block
+}
+
+nav ul{
+    list-style:none
+}
+
+blockquote,q{
+    quotes:none
+}
+
+blockquote:before,blockquote:after,q:before,q:after{
+    content:none
+}
+
+a{
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent
+}
+
+ins{
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none
+}
+
+mark{
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold
+}
+
+del{
+    text-decoration:line-through
+}
+
+abbr[title],dfn[title]{
+    border-bottom:1px dotted;cursor:help
+}
+
+table{
+    border-collapse:collapse;
+    border-spacing:0
+}
+
+hr{
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #ccc;
+    margin:1em 0;
+    padding:0
+}
+
+input,select{
+    vertical-align:middle
+}
+
+body,html {
+    font-size: 16px;
+	background-color: black;
+    scroll-behavior: smooth;
+    color: white;
+    font-family: Helvetica, sans-serif;
+}
+
+
+
+header {
+    background: #A9A9A9A9;
+    background-color: #A9A9A9A9;
+    background-image: url("https://www.transparenttextures.com/patterns/squared-metal.png");
+    padding: 20px 30px;
+    margin: auto;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+
+.imagen img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+nav {
+    display: inline-block;
+}
+
+nav ul li a {
+    background: #EEE;
+    padding: 2px 10px;
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #444;
+    border-radius: 10px;
+    transition: transform .2s;
+}  
+
+nav ul li a:hover {
+	background: #ad9d43;
+    background-image: url("https://www.transparenttextures.com/patterns/broken-noise.png");
+    -webkit-text-stroke: 0.3px white;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px;
+    transition: transform .2s;
+    font-family: Century Gothic;
+}
+
+nav ul li:hover {
+    transform: scale(1.1);
+}
+
+nav ul {
+    list-style: none;
+}
+
+#pageContent {
+    margin: 50px;
+    border: none;
+}
+
+main {
+	float: left;
+}
+
+article {
+    border-bottom: 2px dotted #999;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+article h2 {
+    font-weight: normal;
+    margin-bottom: 12px;
+}
+
+article p {
+	
+}
+
+main section {
+	
+}
+
+footer {
+	background: #A9A9A9A9;
+    background-image: url("https://www.transparenttextures.com/patterns/broken-noise.png");
+	margin: auto;
+	clear: both;
+	text-align: center;
+}
+
+footer p {
+	padding: 20px;
+    color: white;
+}
+
+address {
+    padding: 10px 20px 30px 10px;
+    color: white;
+}
+
+aside > div {
+	margin: 10px auto;
+	background: #AEC6CF;
+	min-height: 100px;
+}
+
+#logo {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 30px;
+    color: #FFF;
+}
+
+#logo img {
+    width: auto;
+    max-width: 50%;
+    vertical-align: middle;
+    margin-right: 10px;
+    transition: transform 0.6s ease-in-out;
+}
+
+#logo img:hover{
+    transform: rotate(360deg);
+}
+}
+
+body > section {
+    margin: auto;
+    padding: 30px 0px;
+    border-bottom: 1px solid #999;
+    color: #333;
+
+
+}
+
+@media screen and (max-width: 1000px) {
+	body > section {
+		padding: 30px 20px;
+	}
+}
+@media screen and (max-width: 600px) {
+	main {
+		float: none;
+		width: 100%;
+	}
+	aside {
+		float: none;
+		width: 100%;
+	}
+
+}
+
+.imagen-texto{
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    float: left;
+    width: 25%;
+    padding: 5px;
+    overflow: hidden;
+
+}
+
+.imagen-texto img{
+    width: 250px;
+    height: 250px;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 8px;
+    position: relative;
+    margin-bottom: 5px;
+    object-fit: cover;
+    object-position: top;
+    transition: transform .5s ease;
+}
+
+.imagen-texto:hover img{
+    transform: scale(1.5);
+}
+
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: 'Helvetica', sans-serif;
+}
+
+.clearfix{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.pie{
+    display: block;
+    text-align: center;
+}
